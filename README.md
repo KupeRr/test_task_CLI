@@ -21,10 +21,10 @@ The first module is a calculator. It takes a string as an argument and calculate
 The second module is the Git client. Allows you to download the necessary project by link to the selected directory. It is possible to choose both a global path to the folder and a local one. If the project is already downloaded - the command git pull will be executed. Implemented the ability to switch between branches and select the name of the folder in which the project will be located. It takes a string as an argument for folder name.
 
 Parameters:
-- --path (-p) - Path to the folder of the repository
-- --local-path (-lp) - Path to the repository folder from the current folder
-- --git-link (-gl) - HTTPS path to github repository
-- --branch (-b) - Necessary branch name of the repository
+- --path (-p)         - Path to the folder of the repository
+- --local-path (-lp)  - Path to the repository folder from the current folder
+- --git-link (-gl)    - HTTPS path to github repository
+- --branch (-b)       - Necessary branch name of the repository
 
 If you do not specify a link to GitHub, the default link to the example project will be used. The same will happen if you don't specify a branch, by default it will be main.
 The third module is Pokémon. This module allows you to get information about any pokémon, as well as a brief description of all its abilities. Accordingly, the module takes the name of the pokémon as an argument.
